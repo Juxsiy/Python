@@ -12,5 +12,5 @@ while count < 6:
     b = coloda.pop()
     hands.append(b)
     count += 1
-    
+
 print(hands)

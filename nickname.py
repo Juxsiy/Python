@@ -5,7 +5,7 @@ if nick.isalpha():
     for i in nick:
         words.append(i)
     new_words = []
-    for item in words: 
+    for item in words:
         if item not in new_words:
             new_words.append(item)
     sort = []
@@ -14,4 +14,5 @@ if nick.isalpha():
     sort.sort()
     for i in sort:
         print(i)
-else: print("Impossible")
+else:
+    print("Impossible")

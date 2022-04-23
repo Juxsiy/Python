@@ -1,8 +1,9 @@
 def square(side):
     perimeter = side * 4
     square = side * side
-    diagonal = (side**2+side**2)**0.5
+    diagonal = (side**2 + side**2)**0.5
     return(perimeter, square, diagonal)
+
 
 while True:
     try:

@@ -4,6 +4,7 @@ def is_year_leap(year):
     else:
         return False
 
+
 while True:
     try:
         year = int(input())
